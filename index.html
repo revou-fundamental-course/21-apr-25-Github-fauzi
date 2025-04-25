@@ -3,17 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Konfersi Suhu</title>
-
+    <title>Website Konversi Suhu</title>
+    <!-- CSS External -->
     <link rel="stylesheet" href="css\index.css">
 </head>
 <body>
+    <!-- Header Content -->
+    <header>
+        <h1>Website Konversi Suhu - Fauzi</h1>
+    </header>
+    <!-- Main Content -->
+    <main>
+        <!-- Introduction -->
+        <section>
+            <!-- Dummy Intro -->
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque accusantium 
+                vitae earum! Quia praesentium quaerat, rem deleniti debitis illo nam eaque placeat 
+                consequuntur eius veniam odio necessitatibus pariatur numquam voluptatibus.</p>
+        </section>
 
-    <header></header>
+        <!-- Form Konversi Suhu -->
+        <form>
+            <form class="section-content">
+                <div class="section-items">
+                    <label for="Konversi-input">Celcius(&deg;C):</label>
+                </div>
 
-    <main></main>
+                <div class="section-items">
+                    <textarea id="Konversi-input"></textarea>
+                </div>
 
-    <footer></footer>
-    
+                <!-- Form Action -->
+                 <div class="section-items">
+                    <button class="bg-1">Konversi</button>
+                    <button class="bg-2">Reset</button>
+                    <button class="bg-3">Reverse</button>
+                 </div>
+        </form>
+
+        <!-- Hasil Konversi Suhu -->
+        <section class="section-content">
+        <div class="section-items">
+            <label for="result-input">Fahrenheit (&deg;F)</label>
+        </div>
+
+        <div class="section-items">
+            <textarea id="result-input" readonly></textarea>
+        </div>
+        </section>
+
+        <!-- Penjelasan -->
+         <section class="section-content">
+            <div class="section-items">
+                <label for="calculate-detail">Cara kalkulasi:</label>
+            </div>
+
+            <div class="section-items">
+                <textarea id="calculate-detail" readonly></textarea>
+            </div>
+         </section>
+
+         <!-- Informasi Tambahan -->
+        <section>
+            <header>
+                <h1>Cara Konversi Dari celcius (&deg;C) ke Fahrenheit (&deg;F)</h1>
+            </header>
+
+            <hr />
+
+            <!-- Konten Informasi -->
+            <article>
+                <p>Suhu <span class="formula">S</span> dalam derajat Fahrenheit (&deg;F)</p>
+
+                <!-- Formula -->
+                 <div class="formula">
+                    S<sub>(&deg;F)</sub> = (S<sub>(&deg;C)</sub> x 9/5) + 32
+                 </div>
+
+                 <div>
+                    atau 
+                 </div>
+
+                 <div class="formula">
+                    S<sub>(&deg;F)</sub> = (S<sub>(&deg;C)</sub> x 1,8) + 32
+                 </div>
+            </article>
+        </section>
+     </main>
+
+     <!-- Footer Content -->
+    <footer> 
+        <p>&copy; 2025 fauzi</p>
+     </footer>
 </body>
 </html>
