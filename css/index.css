@@ -10,18 +10,19 @@ h2, h3 {
     padding: 20px;
 }
 body {
-    background-color: #f4f4f4;
+    background-color: black;
     text-align: center;
     font-family: Arial, sans-serif;
     font-size:x-large ;
     line-height: 1.6;
+    color: #f4f4f4;
 
 }
 
 .container {
     position:relative;
     top: 0;
-    background-color: black;
+    background-color: grey;
     color: white;
     padding: 0px 20px;
     text-align: left;
@@ -94,7 +95,7 @@ textarea {
 }
 
 footer, p {
-    background-color: black;
+    background-color: grey;
     padding: 10px;
     color: #f4f4f4;
 }    
