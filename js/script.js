@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    console.log('Temperature converter script loaded');
+    console.log('javascript is workking!');
 
     // Initialize elements
     const inputCelsius = document.getElementById('celsius');
